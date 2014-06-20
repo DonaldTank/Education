@@ -13,7 +13,8 @@ print_r($array);
 //$array[4]="g";
 //$array[5]="e"; 
     echo "<p>";
-	echo "<br>\$boolean = ".$boolean;
+	echo "<br>\$boolean = ";
+	var_dump ($boolean);
     echo "<br>\$integer = ".$integer; 
     echo "<br>\$string = ".$string;// вывод на экран $string = Текст
     echo "<br>\$float = ".$float;

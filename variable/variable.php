@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 $boolean = true;
 $integer = 0;
 $float = 3.1415;
@@ -48,6 +49,25 @@ $array = array('0' => 'o', '1' => 'r', '2' => 'a', '3' => 'n', '4' => 'g', '5' =
 	//}
 	 $b = false;
      echo $b ? 'true' : 'false'; //will output false
+	         echo "<br>";
+	         for ($x=5; $x++<10;) echo "<b>$x</b>"; // outout 678910
+			         echo "<br>";
+					 $x=5;
+                     while ($x++<10) echo $x;  // output 678910
+                                 echo "<br>";
+								 $names["Иванов"] = "Андрей";
+                                 $names["Петров"] = "Борис";
+                                 $names["Волков"] = "Сергей";
+                                 $names["Макаров"] = "Федор";
+                                 foreach ($names as $key => $value) {
+                                 echo "<b>$value $key</b><br>";
+                                 }
+					 
+					
+
+			 
+			 
+
 	?>
 	
 
